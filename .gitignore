@@ -1,0 +1,7 @@
+# build
+MMS-PC/build/*
+
+# vscode
+MMS-PC/.vscode/*
+
+MMS-PC/.clang-format
