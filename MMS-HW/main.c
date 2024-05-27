@@ -22,7 +22,6 @@ int main(void)
   ESP8266_Set_Stationmode();
   printf("## Switched to station mode ##\r\n");
 
-  printf("Hello World!\r\n");
 
   if(ESP8266_Connect_AP(WIFI_SSID, WIFI_PASSWORD) != ACK_SUCCESS) {
     printf("## Connect to WiFi failed. ##\r\n");
