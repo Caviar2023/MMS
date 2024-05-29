@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/icon">
+        <file>resource/seach.png</file>
+        <file>resource/all.png</file>
+        <file>resource/out.png</file>
+        <file>resource/into.png</file>
+    </qresource>
+</RCC>

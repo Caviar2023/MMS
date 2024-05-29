@@ -10,13 +10,20 @@ CONFIG += c++17
 
 SOURCES += \
     main.cpp \
-    mainwindow.cpp
+    mainwindow.cpp \
+    MMSMaterialDataBase.cpp \
+    MMSCustomSeachBox.cpp \
 
 HEADERS += \
-    mainwindow.h
+    mainwindow.h \
+    MMSMaterialDataBase.h \
+    MMSTypeDef.h \
+    MMSCustomSeachBox.h \
 
 FORMS += \
-    mainwindow.ui
+    mainwindow.ui \
+
+RESOURCES = res.qrc
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin

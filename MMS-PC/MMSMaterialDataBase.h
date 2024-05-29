@@ -3,6 +3,7 @@
 
 #include "MMSTypeDef.h"
 
+Q_TYPE_DEFINE(MMSMaterialDataBase)
 class MMSMaterialDataBase
 {
 public:
