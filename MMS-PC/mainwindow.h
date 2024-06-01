@@ -25,7 +25,6 @@ protected:
     void _initTableWidget();
     void _treeItemChanged();
     void _displayData(vecMaters vecData);
-
 private:
     Ui::MainWindow *ui;
     vecMaters m_vecAll;

@@ -2,7 +2,9 @@
 #define MMSTypeDef_H
 
 #include <QString>
+#include <QVector>
 #include <QSharedPointer>
+#include <QWeakPointer>
 #include <QMessageBox>
 
 enum MMSTreeItemCol {
@@ -23,7 +25,11 @@ enum MMSMaterialState {
     msInto,
 };
 
-#define Q_TYPE_DEFINE(_name_)                   \
+#define Q_CLASS_DEFINE(_name_) \
+    class _name_;              \
+    typedef QSharedPointer<_name_> _name_##Ptr;
+
+#define Q_FORWARD_DECLARE(_name_)               \
     class _name_;                               \
     typedef QSharedPointer<_name_> _name_##Ptr; \
     typedef QWeakPointer<_name_> _name_##WPtr;

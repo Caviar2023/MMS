@@ -1,4 +1,4 @@
-QT       += core gui
+QT       += core gui network
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
@@ -13,15 +13,18 @@ SOURCES += \
     mainwindow.cpp \
     MMSMaterialDataBase.cpp \
     MMSCustomSeachBox.cpp \
+    mmsnetsetdlg.cpp
 
 HEADERS += \
     mainwindow.h \
     MMSMaterialDataBase.h \
     MMSTypeDef.h \
     MMSCustomSeachBox.h \
+    mmsnetsetdlg.h
 
 FORMS += \
     mainwindow.ui \
+    mmsnetsetdlg.ui
 
 RESOURCES = res.qrc
 
